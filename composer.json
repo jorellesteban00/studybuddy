@@ -1,0 +1,15 @@
+{
+  "name": "yourname/studybuddy",
+  "version": "1.0.0",
+  "description": "StudyBuddy - Smart Quiz Generator using php-ai/php-ml",
+  "require": {
+    "php": ">=7.4",
+    "php-ai/php-ml": "^0.10.0",
+    "smalot/pdfparser": "^2.12"
+  },
+  "autoload": {
+    "psr-4": {
+      "StudyBuddy\\": "src/"
+    }
+  }
+}
